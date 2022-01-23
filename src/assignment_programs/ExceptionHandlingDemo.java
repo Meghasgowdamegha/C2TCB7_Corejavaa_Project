@@ -1,4 +1,4 @@
-package exception_handling_11_Jan;
+package assignment_programs;
 
 public class ExceptionHandlingDemo {
 	
