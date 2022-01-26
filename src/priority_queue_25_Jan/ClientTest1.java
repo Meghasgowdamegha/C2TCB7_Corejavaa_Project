@@ -3,10 +3,6 @@ package priority_queue_25_Jan;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import com.infotech.buffer.Buffer;
-import com.infotech.worker.ConsumerTask;
-import com.infotech.worker.producerTask;
-
 public class ClientTest1 {
 
     public static void main(String[] args) {

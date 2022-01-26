@@ -1,7 +1,5 @@
 package priority_queue_25_Jan;
 
-import com.infotech.buffer.Buffer;
-
 public class ProducerTask implements Runnable{
     private Buffer buffer;
     public ProducerTask(Buffer buffer){
