@@ -1,7 +1,7 @@
 package multithreading_synchronization_27_Jan;
 
 	import java.util.Scanner;
-	public class Withdraw extends Thread
+	public class WithdrawThread extends Thread
 	{
 	    public static void main(String args[] )
 	    { 
