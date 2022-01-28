@@ -1,4 +1,4 @@
-package multithreading_synchronization;
+package multithreading_synchronization_27_Jan;
 
 import multi_threading_26_Jan.AClass;
 
