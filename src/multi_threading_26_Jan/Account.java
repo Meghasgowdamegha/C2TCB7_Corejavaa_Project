@@ -1,13 +1,15 @@
 package multi_threading_26_Jan;
 
+import multithreading_synchronization.DepositThread;
+
 public class Account {
 
-static int Balance=10000;
-public static void main(String[] args) {
-AClass oa=new AClass();
+	static int Balance=10000;
+	public static void main(String[] args) {
+		AClass oa=new AClass();
 		
-DepositThread dt1=new DepositThread(oa, 5000,"First");
-DepositThread dt2=new DepositThread(oa, 4000,"Second");
+		DepositThread dt1=new DepositThread(oa, 5000,"First");
+		DepositThread dt2=new DepositThread(oa, 4000,"Second");
 		
 		dt1.start();
 		dt2.start();

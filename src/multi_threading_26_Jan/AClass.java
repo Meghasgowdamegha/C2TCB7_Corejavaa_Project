@@ -3,7 +3,7 @@ package multi_threading_26_Jan;
 public class AClass {
 	int bal;
 	
-synchronized void deposit(int amt)
+public synchronized void deposit(int amt)
 {
 	System.out.println("Getting balance...");
 	int oldbal=getBalance();
