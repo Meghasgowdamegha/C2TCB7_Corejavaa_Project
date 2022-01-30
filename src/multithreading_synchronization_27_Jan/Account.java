@@ -1,6 +1,4 @@
-package multi_threading_26_Jan;
-
-import multithreading_synchronization_27_Jan.DepositThread;
+package multithreading_synchronization_27_Jan;
 
 public class Account {
 

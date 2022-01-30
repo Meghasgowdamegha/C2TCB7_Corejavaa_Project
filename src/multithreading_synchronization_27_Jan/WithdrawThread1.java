@@ -1,14 +1,15 @@
 package multithreading_synchronization_27_Jan;
 
-public class DepositThread extends Thread {
+
+public class WithdrawThread1 extends Thread {
 	AClass obj;
 	int amt;
-	String msg;
+	//String msg;
 	
-	public DepositThread(AClass obj, int amt,String msg) {	
+	public WithdrawThread1(AClass obj, int amt,String msg) {	
 		this.obj = obj;
 		this.amt = amt;
-		this.msg = msg;
+	    //this.msg=msg;
 	}
 
 	@Override
@@ -22,8 +23,7 @@ public class DepositThread extends Thread {
 			
 		}
 		//System.out.println("First");
-		obj.deposit(amt);
+		obj.withdraw(amt);
 	}
 	
-
 }

@@ -1,4 +1,4 @@
-package multi_threading_26_Jan;
+package multithreading_synchronization_27_Jan;
 
 public class AClass {
 	int bal;
@@ -25,5 +25,9 @@ void setBalance(int amt)
 		
 	}
 	Account.Balance=amt;
+}
+public void withdraw(int amt) {
+	// TODO Auto-generated method stub
+	
 }
 }
